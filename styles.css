@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lato&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #be35f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.white-container {
+  background-color: #fff;
+  height: 60vh;
+  width: 20vw;
+  position: relative;
+}
+.quote-container {
+  background-color: rgb(235, 215, 32);
+  height: 40vh;
+  width: 30vw;
+  position: absolute;
+  top: 10vh;
+  left: -5vw;
+  box-shadow: 0px 20px 65px #000;
+  color: #be35f4;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+#btn-quote {
+  background-color: #be35f4;
+  border-radius: 3px;
+  padding: 10px;
+  color: rgb(235, 215, 32);
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
